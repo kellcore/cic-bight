@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './header';
-import Home from './home';
-import inventory from './inventory';
-import shipments from './shipments';
+import Header from './Header';
+import Home from './Home';
+import Inventory from './Inventory';
+import Shipments from './Shipments';
 import { HashRouter as Router, Route } from 'react-router-dom';
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <Header />
         <div className="photo-bg">
           <Route exact path="/" component={Home} />
-          <Route exact path="/inventory" component={inventory} />
-          <Route exact path="/shipments" component={shipments} />
+          <Route exact path="/inventory" component={Inventory} />
+          <Route exact path="/shipments" component={Shipments} />
         </div>
       </Router>
     </div>

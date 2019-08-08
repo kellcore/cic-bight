@@ -1,6 +1,6 @@
 import React from 'react';
 
-function shipments() {
+function Shipments() {
     return (
         <div>
             <h4> shipments </h4>
@@ -14,4 +14,4 @@ function shipments() {
     )
 };
 
-export default shipments;
+export default Shipments;
