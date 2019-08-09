@@ -4,6 +4,7 @@ import Home from './Home';
 import Inventory from './Inventory';
 import Shipments from './Shipments';
 import { HashRouter as Router, Route } from 'react-router-dom';
+import Product from './Product';
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
         <Header />
         <div className="photo-bg">
           <Route exact path="/" component={Home} />
-          <Route exact path="/inventory" component={Inventory} />
-          <Route exact path="/shipments" component={Shipments} />
+          <Route path="/inventory" component={Inventory} />
+          <Route path="/shipments" component={Shipments} />
+          <Route path="/products/:id" component={Product} />
         </div>
       </Router>
     </div>

@@ -40,28 +40,28 @@
         {
             "id": "677",
             "productId": "121",
-            "product": "Backpack",
+            "product": "backpack",
             "quantity": 5,
             "isReceived": true
         },
         {
             "id": "678",
             "productId": "121",
-            "product": "Backpack",
+            "product": "backpack",
             "quantity": 15,
             "isReceived": false
         },
         {
             "id": "679",
             "productId": "122",
-            "product": "Hiking Boots",
+            "product": "hiking boots",
             "quantity": 50,
             "isReceived": false
         },
         {
             "id": "680",
             "productId": "123",
-            "product": "Canteen",
+            "product": "canteen",
             "quantity": 10,
             "isReceived": false
         }

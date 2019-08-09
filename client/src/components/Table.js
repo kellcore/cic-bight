@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Table({ data }) {
@@ -22,7 +23,7 @@ function Table({ data }) {
                     return (
                         <tr key={item.id}>
                             <td> {item.id} </td>
-                            <td> {item.product} </td>
+                            <td> <Link to={`/products/${item.id}`}>{item.product}</Link> </td>
                             <td> {item.quantity} </td>
                         </tr>
                     )
